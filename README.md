@@ -1,0 +1,1 @@
+The Blood Donation Network and Emergency Matching Platform is a web application that connects blood donors, patients, hospitals, and blood banks. It allows users to register, request blood during emergencies, and quickly match eligible donors based on blood group and availability.
