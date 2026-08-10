@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Architecture Diagram" id="7yndKaKEqTTV_xG6wsTh">
+    <mxGraphModel dx="2492" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="Users&#xa;&#xa;• Donor&#xa;• Patient&#xa;• Hospital&#xa;• Admin" vertex="1">
+          <mxGeometry height="140" width="180" x="-40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1;" value="React.js Frontend&#xa;&#xa;• Login / Registration&#xa;• Dashboards&#xa;• Blood Requests&#xa;• Donor Management" vertex="1">
+          <mxGeometry height="200" width="240" x="210" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-3" parent="1" style="swimlane;html=1;rounded=1;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1;" value="Backend / API Layer" vertex="1">
+          <mxGeometry height="620" width="430" x="520" y="-60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-4" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=16;fontStyle=1;" value="Spring Boot REST API" vertex="1">
+          <mxGeometry height="60" width="230" x="100" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-5" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Spring Security + JWT" vertex="1">
+          <mxGeometry height="55" width="170" x="30" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-6" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="User Management" vertex="1">
+          <mxGeometry height="55" width="170" x="230" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-7" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Donor Management" vertex="1">
+          <mxGeometry height="55" width="170" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-8" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Emergency Blood Requests" vertex="1">
+          <mxGeometry height="55" width="170" x="230" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-9" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1;" value="Emergency Matching Engine" vertex="1">
+          <mxGeometry height="60" width="170" x="30" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-10" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Hospital Management" vertex="1">
+          <mxGeometry height="60" width="170" x="230" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-11" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Blood Inventory" vertex="1">
+          <mxGeometry height="55" width="170" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-12" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Donation History" vertex="1">
+          <mxGeometry height="55" width="170" x="230" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-13" parent="Nv2-frTNpuFMmAmMVIRn-3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;" value="Notification Service" vertex="1">
+          <mxGeometry height="55" width="170" x="130" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-14" parent="1" style="swimlane;html=1;rounded=1;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=17;fontStyle=1;" value="Database Layer" vertex="1">
+          <mxGeometry height="250" width="300" x="1020" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-15" parent="Nv2-frTNpuFMmAmMVIRn-14" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" value="MySQL Database&#xa;&#xa;• Users&#xa;• Donors&#xa;• Patients&#xa;• Hospitals&#xa;• Blood Requests&#xa;• Blood Inventory&#xa;• Donations&#xa;• Notifications" vertex="1">
+          <mxGeometry height="160" width="210" x="45" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-16" parent="1" style="swimlane;html=1;rounded=1;horizontal=0;fillColor=#f5f5f5;strokeColor=#666666;fontSize=17;fontStyle=1;" value="External Services" vertex="1">
+          <mxGeometry height="150" width="300" x="1020" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-17" parent="Nv2-frTNpuFMmAmMVIRn-16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Email Service&#xa;Emergency Notifications" vertex="1">
+          <mxGeometry height="65" width="200" x="50" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-18" parent="1" style="swimlane;html=1;rounded=1;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=17;fontStyle=1;" value="Cloud Deployment" vertex="1">
+          <mxGeometry height="150" width="1120" x="200" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-19" parent="Nv2-frTNpuFMmAmMVIRn-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1;" value="Vercel&#xa;React Frontend" vertex="1">
+          <mxGeometry height="65" width="220" x="60" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-20" parent="Nv2-frTNpuFMmAmMVIRn-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1;" value="Render&#xa;Spring Boot Backend" vertex="1">
+          <mxGeometry height="65" width="220" x="420" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-21" parent="Nv2-frTNpuFMmAmMVIRn-18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1;" value="Cloud MySQL&#xa;Production Database" vertex="1">
+          <mxGeometry height="65" width="220" x="780" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-22" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-23" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-4" value="REST API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-24" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-25" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-26" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-27" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-28" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-29" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-30" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-31" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-32" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-13" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-33" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-15" value="CRUD / JPA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-34" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" target="Nv2-frTNpuFMmAmMVIRn-17" value="Send Email">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-35" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-2" style="dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" target="Nv2-frTNpuFMmAmMVIRn-19" value="Deploy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-36" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-4" style="dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" target="Nv2-frTNpuFMmAmMVIRn-20" value="Deploy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nv2-frTNpuFMmAmMVIRn-37" edge="1" parent="1" source="Nv2-frTNpuFMmAmMVIRn-15" style="dashed=1;edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=none;" target="Nv2-frTNpuFMmAmMVIRn-21" value="Deploy">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
